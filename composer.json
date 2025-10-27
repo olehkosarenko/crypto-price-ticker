@@ -9,6 +9,14 @@
     }
   },
   "require": {},
+  "require-dev": {
+    "wp-coding-standards/wpcs": "^3.1",
+    "dealerdirect/phpcodesniffer-composer-installer": "^1.0"
+  },
+  "scripts": {
+    "lint": "phpcs --standard=phpcs.xml",
+    "lint:fix": "phpcbf --standard=phpcs.xml"
+  },
   "config": {
     "allow-plugins": {
       "dealerdirect/phpcodesniffer-composer-installer": true
