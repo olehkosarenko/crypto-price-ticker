@@ -1,0 +1,17 @@
+{
+  "name": "wpapp/crypto-price-ticker",
+  "description": "WordPress plugin: crypto price ticker with Interactivity API.",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "autoload": {
+    "psr-4": {
+      "CryptoPriceTicker\\": "src/"
+    }
+  },
+  "require": {},
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  }
+}

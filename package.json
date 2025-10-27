@@ -1,0 +1,14 @@
+{
+  "name": "crypto-price-ticker",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "format": "wp-scripts format",
+    "lint:js": "wp-scripts lint-js"
+  },
+  "devDependencies": {
+    "@wordpress/api-fetch": "^7.6.0",
+    "@wordpress/interactivity": "^6.1.0",
+    "@wordpress/scripts": "^30.6.0"
+  }
+}
