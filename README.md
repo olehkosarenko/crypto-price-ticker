@@ -141,7 +141,7 @@ PHPCS configuration: phpcs.xml
 
 No abbreviations or inline short-returns (e.g. always use {} in if)
 
-To manually lint (or `use composer lint`):
+To manually lint (or use `composer lint`):
 ```
 vendor/bin/phpcs --standard=phpcs.xml
 ```
